@@ -1,0 +1,10 @@
+Package: igc-dkms
+Version: 1.0-1
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Installed-Size: 12
+Depends: dkms (>= 3.0)
+Section: kernel
+Priority: optional
+Description: Intel I225/I226 Ethernet driver (DKMS)
+ DKMS package for a patched igc driver.
