@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/igc/igc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/intel/igc/igc.ko drivers/net/ethernet/intel/igc/igc.o drivers/net/ethernet/intel/igc/igc.mod.o;  true
